@@ -14,7 +14,7 @@ A **React** component that mimics the native ripple effect seen in **Android** a
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/َAlirezaJahaniBiglar/RippleButton-react.git
+git clone https://github.com/AlirezaJahaniBiglar/RippleButton-react.git
 ```
 
 ### 2. Install Dependencies
