@@ -7,6 +7,10 @@ A **React** component that mimics the native ripple effect seen in **Android** a
 - **Native-like Ripple Effect**: The ripple effect behaves exactly like the one in Android, offering a familiar user experience.
 - **Easy to Use**: Drop the component into your project with minimal setup.
 
+## Demo
+
+![Ripple Button Demo](https://alirezajahanibiglar.github.io/RippleButton-react/)
+
 ## Installation
 
 ### 1. Clone the Repository
