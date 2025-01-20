@@ -8,8 +8,7 @@ A **React** component that mimics the native ripple effect seen in **Android** a
 - **Easy to Use**: Drop the component into your project with minimal setup.
 
 ## Demo
-
-![Ripple Button Demo](https://alirezajahanibiglar.github.io/RippleButton-react/)
+- [Ripple Button Demo](https://alirezajahanibiglar.github.io/RippleButton-react/)
 
 ## Installation
 
@@ -102,3 +101,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Happy coding! Enjoy the smooth ripple effect in your applications.
+
