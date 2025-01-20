@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RippleButton-react/static/css/main.ffba1bd9.css",
+    "main.js": "/RippleButton-react/static/js/main.ad877a9c.js",
+    "index.html": "/RippleButton-react/index.html",
+    "main.ffba1bd9.css.map": "/RippleButton-react/static/css/main.ffba1bd9.css.map",
+    "main.ad877a9c.js.map": "/RippleButton-react/static/js/main.ad877a9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffba1bd9.css",
+    "static/js/main.ad877a9c.js"
+  ]
+}
