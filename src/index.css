@@ -1,0 +1,204 @@
+:root {
+    --spacing-xs: 5px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 30px;
+    --spacing-xl: 32px;
+    --radius-sm: 20px;
+    --radius-md: 30px;
+    --radius-lg: 40px;
+    --font-size-sm: 12px;
+    --font-size-bsm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 20px;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-drag: none;
+    user-select: text;
+}
+
+#root,
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.tr {
+    transition: .2s;
+}
+
+button,
+img {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+.b-center { margin: 0 auto; }
+.b-all-center > * { margin: 0 auto; }
+
+.flex {
+    display: flex;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-flow {
+    flex-flow: wrap;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-event {
+    justify-content: space-evenly;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.align-around {
+    align-items: space-around;
+}
+.align-event {
+    align-items: space-evenly;
+}
+.align-between {
+    align-items: space-between;
+}
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-gap-xs { gap: var(--spacing-xs); }
+.flex-gap-sm { gap: var(--spacing-sm); }
+.flex-gap-md { gap: var(--spacing-md); }
+.flex-gap-lg { gap: var(--spacing-lg); }
+
+.m-xs { margin: var(--spacing-xs); }
+.m-md { margin: var(--spacing-md); }
+.m-lg { margin: var(--spacing-lg); }
+.mt-xs { margin-top: var(--spacing-xs); }
+.mt-md { margin-top: var(--spacing-md); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.ml-md { margin-left: var(--spacing-md); }
+.mr-md { margin-right: var(--spacing-md); }
+.mt-xs { margin-top: var(--spacing-xs); }
+.mb-xs { margin-bottom: var(--spacing-xs); }
+.ml-xs { margin-left: var(--spacing-xs); }
+.mr-xs { margin-right: var(--spacing-xs); }
+.mt-lg { margin-top: var(--spacing-lg); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+.ml-lg { margin-left: var(--spacing-lg); }
+.mr-lg { margin-right: var(--spacing-lg); }
+
+.p-lg { padding: var(--spacing-lg); }
+.p-md { padding: var(--spacing-md); }
+.p-sm { padding: var(--spacing-sm); }
+.p-xs { padding: var(--spacing-xs); }
+.pt-lg { padding-top: var(--spacing-lg); }
+.pb-lg { padding-bottom: var(--spacing-lg); }
+.pl-lg { padding-left: var(--spacing-lg); }
+.pr-lg { padding-right: var(--spacing-lg); }
+
+.text-primary { color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+
+.text-secondary { color: var(--color-secondary); }
+.bg-secondary { background-color: var(--color-secondary); }
+
+.text-danger { color: var(--color-danger); }
+.bg-danger { background-color: var(--color-danger); }
+
+.radius-sm { border-radius: var(--radius-sm); }
+.radius-md { border-radius: var(--radius-md); }
+.radius-lg { border-radius: var(--radius-lg); }
+.round { border-radius: 50%; }
+.no-round { border-radius: 0 !important; }
+
+.font-sm { font-size: var(--font-size-sm); }
+.font-bsm { font-size: var(--font-size-bsm); }
+.font-md { font-size: var(--font-size-md); }
+.font-lg { font-size: var(--font-size-lg); }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+#__haha {
+    width: 100%;
+    height: 100%;
+}
+
+button,
+.pointer {
+    cursor: pointer;
+}
+
+.over-none {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.no-height-change {
+    height: auto !important;
+}
+
+.abs {
+    position: absolute !important;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-center {
+    place-items: center;
+    align-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.s-sm {
+    font-size: 12px;
+}
+.s-md {
+    font-size: 14px;
+}
+.s-lg {
+    font-size: 18px;
+}
+
+.weight-md {
+    font-weight: 600;
+}
+.max-w-90 { max-width: 95%; }
+
+.invert { filter: invert() !important;}
+
+.height-100 { height: 100%; }
+.width-100 { width: 100%; }
