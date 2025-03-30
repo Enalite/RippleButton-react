@@ -109,33 +109,33 @@ Happy coding! Enjoy the smooth ripple effect in your applications.
 <summary>Database Schema (Mermaid ERD)</summary>  
 
 ```mermaid
-erDiagram
-    USERS {
-        BIGINT id PK
-        JSON info
-        JSON data
-        STRING lang
-        TIMESTAMP created_at
-        TIMESTAMP updated_at
+classDiagram
+    class Users {
+        +BIGINT id
+        +JSON info
+        +JSON data
+        +STRING lang
+        +TIMESTAMP created_at
+        +TIMESTAMP updated_at
     }
-    
-    MUSIC {
-        STRING id PK
-        STRING title
-        JSON artists
-        JSON details
-        STRING file_id "DEFAULT NULL"
-        TIMESTAMP created_at
+
+    class Music {
+        +STRING id
+        +STRING title
+        +JSON artists
+        +JSON details
+        +STRING file_id (nullable)
+        +TIMESTAMP created_at
     }
-    
-    CHATS {
-        BIGINT id PK
-        JSON info
-        JSON data
-        JSON admins
-        STRING lang
-        TIMESTAMP created_at
-        TIMESTAMP updated_at
+
+    class Chats {
+        +BIGINT id
+        +JSON info
+        +JSON data
+        +JSON admins
+        +STRING lang
+        +TIMESTAMP created_at
+        +TIMESTAMP updated_at
     }
 ```
 
