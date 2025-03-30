@@ -102,3 +102,41 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Happy coding! Enjoy the smooth ripple effect in your applications.
 
+
+
+
+<details>  
+<summary>Database Schema (Mermaid ERD)</summary>  
+
+```mermaid
+erDiagram
+    USERS {
+        BIGINT id PK
+        JSON info
+        JSON data
+        STRING lang
+        TIMESTAMP created_at
+        TIMESTAMP updated_at
+    }
+    
+    MUSIC {
+        STRING id PK
+        STRING title
+        JSON artists
+        JSON details
+        STRING file_id "DEFAULT NULL"
+        TIMESTAMP created_at
+    }
+    
+    CHATS {
+        BIGINT id PK
+        JSON info
+        JSON data
+        JSON admins
+        STRING lang
+        TIMESTAMP created_at
+        TIMESTAMP updated_at
+    }
+```
+
+</details>
